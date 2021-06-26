@@ -43,7 +43,7 @@ async function getObjectFromDynamoDB() {
                     
 
                     for (let item of resData.Items) {
-                        total += item.PREC.N;
+                        total += parseFloat(item.PREC.N);
 
 
                     }

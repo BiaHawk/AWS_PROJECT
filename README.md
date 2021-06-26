@@ -2,7 +2,7 @@
 ### Arquitetura geral da solução proposta
 
 <p align="center">
-  <img src="./arquitetura-projeto.jpg" />
+  <img src="./arquitetura-projeto.png" />
 </p>
 
 # Requisição Lambda e caminho dos dados dentro dos serviços AWS

@@ -43,7 +43,7 @@ async function getObjectFromDynamoDB() {
                     let count = 0;
 
                     for (let item of resData.Items) {
-                        total += item.TEMP.N;
+                        total += parseFloat(item.TEMP.N);
                         count += 1;
 
                     }

@@ -13,7 +13,7 @@ São 5 lambdas que fazem o cálculo da variável solicitada, cada um com o retor
 
 
 ## Requisições finais possíveis
-É possível consultar a temperatura máxima, teperatura média, temperatura mínima, precipitação total e velocidade do vento instantânea, com os seguintes endpoints:
+
   ```http
 /tempmax
 /tempmed
